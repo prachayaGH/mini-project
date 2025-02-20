@@ -3,8 +3,8 @@
 }
 
 :root {
-    --primary-font: font-family: 'Poppins';
-    --secoundary-font: font-family: 'Open Sans';
+    --primary-font: 'Poppins';
+    --secoundary-font: 'Open Sans';
     --primary-color: #293FCC; 
     --primary-font-color: #090F4E;
     --secondary-font-color: #63657E;
