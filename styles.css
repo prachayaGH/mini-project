@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: font-family: 'Poppins';
+    --secoundary-font: font-family: 'Open Sans';
+    --primary-color: #293FCC; 
+    --primary-font-color: #090F4E;
+    --primary-font-color: ##63657E;
+}
