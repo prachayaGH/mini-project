@@ -9,6 +9,7 @@
 	--primary-font-color: #090f4e;
 	--secondary-font-color: #63657e;
 }
+/* --------------------Charlee-------------------- */
 @media only screen and (max-width: 640px) {
 	.dropdown {
 		position: relative;
@@ -31,6 +32,27 @@
 		text-align: center;
 	}
 }
-.dropdown > .dropdown-content > a:hover {
-	text-shadow: 5px 10px 10px #293fccaf;
+.dropdown > .dropdown-content > a:hover,
+.viewDemo:hover {
+	animation: mymove 0.5s;
+	text-shadow: 5px 5px 15px #03040c;
+	cursor: pointer;
 }
+.tryFree:hover {
+	box-shadow: 2px 2px 15px #03040c;
+	transition: box-shadow 3s;
+	cursor: pointer;
+}
+header {
+	transition: all 0.5s;
+}
+
+@keyframes mymove {
+	from {
+		text-shadow: 0px 0px 0px #03040c00;
+	}
+	to {
+		text-shadow: 5px 5px 15px #03040c;
+	}
+}
+/* --------------------Charlee-------------------- */
