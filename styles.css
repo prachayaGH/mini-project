@@ -40,7 +40,7 @@
 }
 .tryFree:hover {
 	box-shadow: 2px 2px 15px #03040c;
-	transition: box-shadow 3s;
+	transition: box-shadow 0.5s;
 	cursor: pointer;
 }
 header {
