@@ -1,34 +1,36 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 :root {
-    --primary-font: 'Poppins';
-    --secoundary-font: 'Open Sans';
-    --primary-color: #293FCC; 
-    --primary-font-color: #090F4E;
-    --secondary-font-color: #63657E;
+	--primary-font: "Poppins";
+	--secoundary-font: "Open Sans";
+	--primary-color: #293fcc;
+	--primary-font-color: #090f4e;
+	--secondary-font-color: #63657e;
 }
-@media only screen and (max-width:640px){
-
-.dropdown{
-    position: relative;
+@media only screen and (max-width: 640px) {
+	.dropdown {
+		position: relative;
+	}
+	.dropdown:hover .dropdown-content {
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		z-index: 1;
+		background: #e4ecffa6;
+		border-radius: 6px;
+	}
+	.dropdown > .dropdown-content > a {
+		width: 165px;
+		height: 40px;
+		text-align: center;
+	}
 }
-.dropdown:hover  .dropdown-content{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    position: absolute;
-    top: 0px;
-    right:0px;
-    z-index: 1;
-    background:#e4ecffa6;
-    border-radius: 6px;
-}
-.dropdown>.dropdown-content>a{
-    width: 165px;
-    height:40px;
-    text-align: center;
-}
+.dropdown > .dropdown-content > a:hover {
+	text-shadow: 5px 10px 10px #293fccaf;
 }
